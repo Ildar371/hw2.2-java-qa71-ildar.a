@@ -10,14 +10,13 @@ public class Main {
         if (depositMoney > 1000) {
             bonusMoney = depositMoney / 100;
             moneySize = moneySize + depositMoney + bonusMoney;
-        }
-        else {
+        } else {
             bonusMoney = 0;
             moneySize = moneySize + depositMoney;
         }
         {
-        System.out.println("Бонус за пополнение:" + bonusMoney);
-        System.out.println("Денег на счету:" + moneySize);
-    }
+            System.out.println("Бонус за пополнение:" + bonusMoney);
+            System.out.println("Денег на счету:" + moneySize);
+        }
     }
 }
